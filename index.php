@@ -17,7 +17,7 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
 </head>
 <body style="background:#eee">
     <header class="row d-flex">
-        <div class="navbar navbar-expand-sm bg-light bg-gradient">
+        <div class="navbar navbar-expand-sm bg-light bg-gradient px-5">
             <div class="container-fluid justify-content-between">
                 <a class="navbar-brand d-flex align-items-center" href="javascript:void(0)">
                 <img src="SAE_HORIZONTAL.webp" alt="SAE General" width="200">
