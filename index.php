@@ -1,8 +1,6 @@
 <?php 
-$menu = array("Inicio","Tramites","Beneficios","Reglamentos","Más Info","Opción");
+include('menu.php');
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,13 +26,39 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
             <p>Aqui ira informacion sobre el usuario logeado</p>
         </div>
         <div class="row">
-            <nav class="d-flex justify-content-end mb-3 bg-tertiary">
-                <button type="button" class="btn btn btn-light m-1">Inicio</button>
-                <button type="button" class="btn btn btn-light m-1">Tramites</button>
-                <button type="button" class="btn btn btn-light m-1">Beneficios</button>
-                <button type="button" class="btn btn btn-light m-1">Reglamentos</button>
-                <button type="button" class="btn btn btn-light m-1">Más info</button>
-            </nav>
+        <nav class="navbar navbar-expand-lg bg-body-y">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <?php foreach ($menu as $item => $espacio ) { ?>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="<?php echo $espacio ?>"><?php echo $item; ?></a>
+                      </li>
+                      <?php } ?>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+          </nav>
         </div>
         <ul>
         <?php foreach ($menu as $opcion) { ?>
