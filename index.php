@@ -17,7 +17,7 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
 </head>
 <body style="background:#eee">
     <header class="row d-flex">
-        <div class="navbar navbar-expand-sm bg-light bg-gradient px-5">
+        <div class="navbar navbar-expand-sm bg-light bg-gradient">
             <div class="container-fluid justify-content-between">
                 <a class="navbar-brand d-flex align-items-center" href="javascript:void(0)">
                 <img src="SAE_HORIZONTAL.webp" alt="SAE General" width="200">
@@ -25,7 +25,7 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
             </div>
             <p>Aqui ira informacion sobre el usuario logeado</p>
         </div>
-        <div class="row">
+        <div class="row px-5">
         <nav class="navbar navbar-expand-lg bg-body-y">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">Navbar</a>
@@ -60,16 +60,45 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
                 </div>
           </nav>
         </div>
-        <ul>
-        <?php foreach ($menu as $opcion) { ?>
-            <li><?php echo $opcion; ?></li>
-        <?php } ?>
-    </ul>
     </header>
 
-<section>
-    <p>Espacio para algun componente</p>
-</section>
+  <div class="container my-5">
+      <section class="row gap-3 d-flex justify-content-center">
+        <div class="row">
+          <h5>Noticias</h5>
+        </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+        <div class="col-md-6">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Noticia sobre SAE</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+        
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Noticia sobre SAE</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+   </section>
+  </div>
+
 <div class="content-wrapper">
     <!-- Content -->
 
