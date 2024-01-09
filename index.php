@@ -1,3 +1,8 @@
+<?php 
+$menu = array("Inicio","Tramites","Beneficios","Reglamentos","Más Info","Opción");
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +25,7 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
                 <img src="SAE_HORIZONTAL.webp" alt="SAE General" width="200">
                 </a>
             </div>
-            <p>icono y contacto</p>
+            <p>Aqui ira informacion sobre el usuario logeado</p>
         </div>
         <div class="row">
             <nav class="d-flex justify-content-end mb-3 bg-tertiary">
@@ -31,10 +36,15 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
                 <button type="button" class="btn btn btn-light m-1">Más info</button>
             </nav>
         </div>
+        <ul>
+        <?php foreach ($menu as $opcion) { ?>
+            <li><?php echo $opcion; ?></li>
+        <?php } ?>
+    </ul>
     </header>
 
 <section>
-    <p>este es mi textito de prueba.bg-light.bg-gradient</p>
+    <p>Espacio para algun componente</p>
 </section>
 <div class="content-wrapper">
     <!-- Content -->
@@ -42,7 +52,7 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
     <div class="container-xxl flex-grow-1 container-p-y">
         <div class="row">
             <div class="card">
-                <h5 class="card-header">Efectores</h5>
+                <h5 class="card-header">Alguna cosa</h5>
                 <div class="table-responsive text-nowrap">
                     
                 </div>
