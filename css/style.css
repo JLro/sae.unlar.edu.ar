@@ -1,0 +1,14 @@
+body{
+	background: var(--bs-body-bg);
+}
+
+.navbar{
+	background-color: rgb(8, 43, 43);
+}
+
+.tooltips{
+	& h5{
+		color:white;
+		font-size: 1.5em;
+	}
+}

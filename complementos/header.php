@@ -1,11 +1,11 @@
-<header class="py-3 mb-4 border-bottom">
+<header class="pt-3 mb-4">
 	<div class="container">
 			<div class="d-flex flex-wrap align-items-center justify-content-between">
-				<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+				<a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
 					<img src="img/SAE_HORIZONTAL.png" width="150" alt="">
 				</a>
 				<div class="dropdown text-end">
-					<a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+					<a href="javascript" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
 						<img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
 					</a>
 					<ul class="dropdown-menu text-small">
@@ -36,9 +36,13 @@
 					</ul>
 				</div>
 			</div>
-		<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-			<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-		</form>
+			<?php 
+			/* --- formulario de busqueda, ver como utilizar.
+				<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+					<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+				</form>
+			*/
+			?>
 		</div>
 	</nav>
 </div>
