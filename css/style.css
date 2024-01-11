@@ -1,3 +1,10 @@
+:root{
+	--color-verde:#37b78a;
+	--color-rojo:#c9486f;
+	--color-azul:#215b6a;
+	--color-naranja:#e3963c;
+}
+
 body{
 	background: var(--bs-body-bg);
 }
@@ -11,4 +18,23 @@ body{
 		color:white;
 		font-size: 1.5em;
 	}
+}
+.card-header{
+	& h5{
+		color:white;
+	}
+}
+
+/* bg-colors */
+.bg-verde{
+	background: var(--color-verde) !important;
+}
+.bg-rojo{
+	background: var(--color-rojo) !important;
+}
+.bg-azul{
+	background: var(--color-azul) !important;
+}
+.bg-naranja{
+	background: var(--color-naranja) !important;
 }
