@@ -1,4 +1,4 @@
-<header class="pt-3 mb-4">
+<header class="pt-3 pb-3">
 	<div class="container">
 			<div class="d-flex flex-wrap align-items-center justify-content-between">
 				<a href="index.php" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
@@ -20,7 +20,7 @@
 		</div>
 </header>
 <div class="row">
-	<nav class="navbar navbar-expand-lg bg-body-y">
+	<nav class="navbar navbar-expand-md bg-body-y">
 		<div class="container">
 			<div class="container-fluid">
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

@@ -4,7 +4,6 @@
 	--color-azul:#215b6a;
 	--color-naranja:#e3963c;
 }
-
 body{
 	background: var(--bs-body-bg);
 }
