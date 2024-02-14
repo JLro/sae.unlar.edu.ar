@@ -37,3 +37,12 @@ body{
 .bg-naranja{
 	background: var(--color-naranja) !important;
 }
+
+/* noticias */
+.noti-images{
+
+	& img{
+		aspect-ratio: 1/1;
+		max-width:60%;
+	}
+}

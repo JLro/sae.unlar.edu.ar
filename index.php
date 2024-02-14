@@ -21,42 +21,35 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
 	?>
 
 	<div class="container my-5">
-		<section class="row gap-3 d-flex justify-content-center">
+		<section class="row">
 			<div class="row">
 				<h5>Noticias</h5>
 			</div>
-			<div class="card mb-3" style="max-width: 540px;">
-				<div class="row g-0">
-					<div class="col-md-6">
-						<img src="..." class="img-fluid rounded-start" alt="...">
-					</div>
-					<div class="col-md-6">
-						<div class="card-body">
-							<h5 class="card-title">Noticia sobre SAE</h5>
-							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-							<p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+			<div class="row p-0 justify-content-around">
+				<?php $i= 0; while($i < 4): ?>
+				<div class="col-md-6 mb-1 p-1">
+					<div class="card overflow-hidden">
+						<div class="row">
+							<img src="img/thumb/fill_thumb_2.jpg" class="img-fluid rounded col-lg-6" alt="...">
+							<!-- <div class="col-lg-6 p-2 noti-images d-flex align-items-center justify-content-center">
+							</div> -->
+							<div class="col-lg-6">
+								<div class="card-body">
+									<h5 class="card-title">Noticia sobre SAE</h5>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="card mb-3" style="max-width: 540px;">
-				<div class="row g-0">
 				
-				<div class="col-md-6">
-					<div class="card-body">
-						<h5 class="card-title">Noticia sobre SAE</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<img src="..." class="img-fluid rounded-start" alt="...">
-				</div>
-				</div>
+				<?php $i++; endwhile; ?>		
 			</div>
 		</section>
 	</div>
-
+	<?php /*
+	
 	<div class="content-wrapper">
 		<!-- Content -->
 
@@ -117,6 +110,8 @@ integrity="sha384-TveZ4SBMG9Zwu44Pq5aK2bgL+4CaFRTtx6pSSsxmQKWhIRKoONDSRW+k+NA9A0
 
 		<div class="content-backdrop fade"></div>
 	</div>
+	*/
+	?>
 	<!-- Popper JS -->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
 			integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
