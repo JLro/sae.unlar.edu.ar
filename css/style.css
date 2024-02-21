@@ -8,7 +8,7 @@ body{
 	background: var(--bs-body-bg);
 }
 
-.navbar{
+.navbar, footer{
 	background-color: rgb(8, 43, 43);
 }
 
@@ -44,5 +44,13 @@ body{
 	& img{
 		aspect-ratio: 1/1;
 		max-width:60%;
+	}
+}
+
+/* footer  */
+footer{
+	color:#eee;
+	& a{
+		color:inherit;
 	}
 }
